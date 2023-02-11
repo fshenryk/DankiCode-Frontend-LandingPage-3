@@ -44,5 +44,6 @@ window.onload = () => {
 
     setTimeout( function(){
         map.panTo({'lat': -23.550520, 'lng': -46.633309});
-    },2000);
+        map.setZoom(8);
+    },4000);
 }
